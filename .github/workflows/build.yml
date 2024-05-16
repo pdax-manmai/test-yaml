@@ -34,7 +34,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: 'api-doc'
+          source-directory: 'api-docs'
           destination-github-username: 'pdax-manmai'
           destination-repository-name: 'caas-api'
           user-email: manmai.huu@pdax.ph
